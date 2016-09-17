@@ -1,6 +1,6 @@
 from django.contrib.auth.models import User
 from django.db import models
-from datetime import datetime, timedelta
+from datetime import timedelta
 
 
 class Tag(models.Model):
@@ -31,6 +31,7 @@ class Occurrence(models.Model):
     def weekday_str(self):
         return ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"][self.weekday]
 
+
 class SpecialOccurrence(models.Model):
     date = models.DateField()
     occurence = models.ForeignKey(Occurrence)
@@ -55,7 +56,9 @@ class Slot(models.Model):
         return "{} @ {}".format(self.plan, self.start)
 
     def special_events(self):
-        return SpecialOccurrence.objects.filter(date__range=[self.start, self.start + timedelta(days=6)])
+        return SpecialOccurrence.objects.filter(
+            date__range=[self.start, self.start + timedelta(days=6)]
+        )
 
 
 class News(models.Model):
@@ -66,7 +69,7 @@ class News(models.Model):
     text = models.TextField()
 
     class Meta:
-        verbose_name_plural='News'
+        verbose_name_plural = 'News'
 
     def __str__(self):
         return "'{}' by {} on {}".format(self.title, self.author, self.date)
