@@ -54,7 +54,8 @@ class Slot(models.Model):
 
 class News(models.Model):
     author = models.OneToOneField(User)
-    date = models.DateTimeField()
+    date = models.DateField()
+    time = models.TimeField()
     title = models.CharField(max_length=128)
     text = models.TextField()
 
