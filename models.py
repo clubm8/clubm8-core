@@ -37,7 +37,7 @@ class SpecialOccurrence(models.Model):
 
 class Plan(models.Model):
     name = models.CharField(max_length=128, null=True)
-    occurence = models.ForeignKey(Occurrence, null=True)
+    occurence = models.ManyToManyField(Occurrence)
 
     def __str__(self):
         return "{}".format(self.name)
