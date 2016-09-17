@@ -1,0 +1,66 @@
+[
+  {
+    "model": "clubm8core.slot",
+    "pk": 1,
+    "fields": {
+      "plan": 1,
+      "start": "2016-08-29"
+    }
+  },
+  {
+    "model": "clubm8core.slot",
+    "pk": 2,
+    "fields": {
+      "plan": 1,
+      "start": "2016-09-05"
+    }
+  },
+  {
+    "model": "clubm8core.slot",
+    "pk": 3,
+    "fields": {
+      "plan": 1,
+      "start": "2016-09-12"
+    }
+  },
+  {
+    "model": "clubm8core.slot",
+    "pk": 4,
+    "fields": {
+      "plan": 1,
+      "start": "2016-09-18"
+    }
+  },
+  {
+    "model": "clubm8core.slot",
+    "pk": 5,
+    "fields": {
+      "plan": 2,
+      "start": "2016-09-25"
+    }
+  },
+  {
+    "model": "clubm8core.slot",
+    "pk": 6,
+    "fields": {
+      "plan": 2,
+      "start": "2016-10-16"
+    }
+  },
+  {
+    "model": "clubm8core.slot",
+    "pk": 7,
+    "fields": {
+      "plan": 1,
+      "start": "2016-10-23"
+    }
+  },
+  {
+    "model": "clubm8core.slot",
+    "pk": 8,
+    "fields": {
+      "plan": 1,
+      "start": "2016-10-30"
+    }
+  }
+]

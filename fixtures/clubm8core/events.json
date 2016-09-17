@@ -1,0 +1,69 @@
+[
+  {
+    "model": "clubm8core.event",
+    "pk": 1,
+    "fields": {
+      "name": "Kata Training",
+      "location": "Dojo Adliswil",
+      "tag": [
+        23,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "model": "clubm8core.event",
+    "pk": 2,
+    "fields": {
+      "name": "Kader Kata Training",
+      "location": "Dojo Adliswil",
+      "tag": [
+        23,
+        9,
+        10,
+        11,
+        12,
+        22,
+        25
+      ]
+    }
+  },
+  {
+    "model": "clubm8core.event",
+    "pk": 3,
+    "fields": {
+      "name": "Kader Kumite Training",
+      "location": "Dojo Wädenswil",
+      "tag": [
+        24,
+        9,
+        10,
+        11,
+        12,
+        22,
+        25
+      ]
+    }
+  },
+  {
+    "model": "clubm8core.event",
+    "pk": 4,
+    "fields": {
+      "name": "Kumite Training",
+      "location": "Dojo Wädenswil",
+      "tag": [
+        24,
+        1,
+        2,
+        3,
+        4,
+        5,
+        22
+      ]
+    }
+  }
+]
