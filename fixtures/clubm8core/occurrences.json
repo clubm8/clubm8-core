@@ -1,0 +1,52 @@
+[
+  {
+    "model": "clubm8core.occurrence",
+    "pk": 1,
+    "fields": {
+      "weekday": 2,
+      "start": "20:15:00",
+      "duration": 120,
+      "event": 4
+    }
+  },
+  {
+    "model": "clubm8core.occurrence",
+    "pk": 2,
+    "fields": {
+      "weekday": 0,
+      "start": "19:30:00",
+      "duration": 90,
+      "event": 1
+    }
+  },
+  {
+    "model": "clubm8core.occurrence",
+    "pk": 3,
+    "fields": {
+      "weekday": 3,
+      "start": "20:15:00",
+      "duration": 150,
+      "event": 2
+    }
+  },
+  {
+    "model": "clubm8core.occurrence",
+    "pk": 4,
+    "fields": {
+      "weekday": 4,
+      "start": "20:30:00",
+      "duration": 120,
+      "event": 4
+    }
+  },
+  {
+    "model": "clubm8core.occurrence",
+    "pk": 5,
+    "fields": {
+      "weekday": 4,
+      "start": "20:00:00",
+      "duration": 150,
+      "event": 3
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "model": "clubm8core.specialoccurrence",
+    "pk": 1,
+    "fields": {
+      "date": "2016-09-19",
+      "occurence": 3
+    }
+  },
+  {
+    "model": "clubm8core.specialoccurrence",
+    "pk": 2,
+    "fields": {
+      "date": "2016-09-09",
+      "occurence": 2
+    }
+  }
+]

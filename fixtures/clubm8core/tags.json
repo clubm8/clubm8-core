@@ -1,0 +1,177 @@
+[
+  {
+    "model": "clubm8core.tag",
+    "pk": 1,
+    "fields": {
+      "name": "sensai:fukuppy"
+    }
+  },
+  {
+    "model": "clubm8core.tag",
+    "pk": 2,
+    "fields": {
+      "name": "graduation:kyu-10"
+    }
+  },
+  {
+    "model": "clubm8core.tag",
+    "pk": 3,
+    "fields": {
+      "name": "graduation:kyu-9"
+    }
+  },
+  {
+    "model": "clubm8core.tag",
+    "pk": 4,
+    "fields": {
+      "name": "graduation:kyu-8"
+    }
+  },
+  {
+    "model": "clubm8core.tag",
+    "pk": 5,
+    "fields": {
+      "name": "graduation:kyu-7"
+    }
+  },
+  {
+    "model": "clubm8core.tag",
+    "pk": 6,
+    "fields": {
+      "name": "graduation:kyu-6"
+    }
+  },
+  {
+    "model": "clubm8core.tag",
+    "pk": 7,
+    "fields": {
+      "name": "graduation:kyu-5"
+    }
+  },
+  {
+    "model": "clubm8core.tag",
+    "pk": 8,
+    "fields": {
+      "name": "graduation:kyu-4"
+    }
+  },
+  {
+    "model": "clubm8core.tag",
+    "pk": 9,
+    "fields": {
+      "name": "graduation:kyu-3"
+    }
+  },
+  {
+    "model": "clubm8core.tag",
+    "pk": 10,
+    "fields": {
+      "name": "graduation:kyu-2"
+    }
+  },
+  {
+    "model": "clubm8core.tag",
+    "pk": 11,
+    "fields": {
+      "name": "graduation:kyu-1"
+    }
+  },
+  {
+    "model": "clubm8core.tag",
+    "pk": 12,
+    "fields": {
+      "name": "graduation:dan-1"
+    }
+  },
+  {
+    "model": "clubm8core.tag",
+    "pk": 13,
+    "fields": {
+      "name": "graduation:dan-2"
+    }
+  },
+  {
+    "model": "clubm8core.tag",
+    "pk": 14,
+    "fields": {
+      "name": "graduation:dan-3"
+    }
+  },
+  {
+    "model": "clubm8core.tag",
+    "pk": 15,
+    "fields": {
+      "name": "graduation:dan-4"
+    }
+  },
+  {
+    "model": "clubm8core.tag",
+    "pk": 16,
+    "fields": {
+      "name": "graduation:dan-5"
+    }
+  },
+  {
+    "model": "clubm8core.tag",
+    "pk": 17,
+    "fields": {
+      "name": "graduation:dan-6"
+    }
+  },
+  {
+    "model": "clubm8core.tag",
+    "pk": 18,
+    "fields": {
+      "name": "graduation:dan-7"
+    }
+  },
+  {
+    "model": "clubm8core.tag",
+    "pk": 19,
+    "fields": {
+      "name": "graduation:dan-8"
+    }
+  },
+  {
+    "model": "clubm8core.tag",
+    "pk": 20,
+    "fields": {
+      "name": "graduation:dan-9"
+    }
+  },
+  {
+    "model": "clubm8core.tag",
+    "pk": 21,
+    "fields": {
+      "name": "graduation:dan-10"
+    }
+  },
+  {
+    "model": "clubm8core.tag",
+    "pk": 22,
+    "fields": {
+      "name": "sensai:tamagochi"
+    }
+  },
+  {
+    "model": "clubm8core.tag",
+    "pk": 23,
+    "fields": {
+      "name": "category:kata"
+    }
+  },
+  {
+    "model": "clubm8core.tag",
+    "pk": 24,
+    "fields": {
+      "name": "category:kumite"
+    }
+  },
+  {
+    "model": "clubm8core.tag",
+    "pk": 25,
+    "fields": {
+      "name": "category:ksi"
+    }
+  }
+]

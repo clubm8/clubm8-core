@@ -1,0 +1,27 @@
+[
+  {
+    "model": "clubm8core.plan",
+    "pk": 1,
+    "fields": {
+      "name": "Standard",
+      "occurence": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "model": "clubm8core.plan",
+    "pk": 2,
+    "fields": {
+      "name": "Ferien",
+      "occurence": [
+        1,
+        3
+      ]
+    }
+  }
+]
