@@ -1,3 +1,4 @@
+from django.contrib.auth.models import User
 from django.db import models
 
 
@@ -49,3 +50,16 @@ class Slot(models.Model):
 
     def __str__(self):
         return "{} @ {}".format(self.plan, self.start)
+
+
+class News(models.Model):
+    author = models.OneToOneField(User)
+    date = models.DateTimeField()
+    title = models.CharField(max_length=128)
+    text = models.TextField()
+
+    class Meta:
+        verbose_name_plural='News'
+
+    def __str__(self):
+        return "'{}' by {} on {}".format(self.title, self.author, self.date)

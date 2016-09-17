@@ -9,4 +9,5 @@ admin.site.register([
     models.SpecialOccurrence,
     models.Plan,
     models.Slot,
+    models.News,
 ])
