@@ -1,5 +1,6 @@
 from django.contrib.auth.models import User
 from django.db import models
+from datetime import datetime, timedelta
 
 
 class Tag(models.Model):
@@ -52,6 +53,9 @@ class Slot(models.Model):
 
     def __str__(self):
         return "{} @ {}".format(self.plan, self.start)
+
+    def special_events(self):
+        return SpecialOccurrence.objects.filter(date__range=[self.start, self.start + timedelta(days=6)])
 
 
 class News(models.Model):
