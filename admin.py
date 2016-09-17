@@ -1,3 +1,12 @@
 from django.contrib import admin
 
-# Register your models here.
+from clubm8core import models
+
+admin.site.register([
+    models.Tag,
+    models.Event,
+    models.Occurrence,
+    models.SpecialOccurrence,
+    models.Plan,
+    models.Slot,
+])
