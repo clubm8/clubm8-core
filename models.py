@@ -36,15 +36,16 @@ class SpecialOccurrence(models.Model):
 
 
 class Plan(models.Model):
+    name = models.CharField(max_length=128, null=True)
     occurence = models.ForeignKey(Occurrence, null=True)
 
     def __str__(self):
-        return "{}".format(self.occurence)
+        return "{}".format(self.name)
 
 
 class Slot(models.Model):
-    plan = models.OneToOneField(Plan, null=True)
+    plan = models.ForeignKey(Plan, null=True)
     start = models.DateField()
 
     def __str__(self):
-        "{} @ {}".format(self.plan, self.start)
+        return "{} @ {}".format(self.plan, self.start)
