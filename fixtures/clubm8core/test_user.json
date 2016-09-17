@@ -1,0 +1,20 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$30000$q1XgCKaZT1AJ$GB1C3nkd99/TVwD6liyfHu0RMC2/rSaLwKJQeECoh00=",
+    "last_login": "2016-09-17T08:59:42.167Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "Admi",
+    "last_name": " Nistrator",
+    "email": "admin@clubm8.ch",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2016-09-17T08:59:03.276Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
