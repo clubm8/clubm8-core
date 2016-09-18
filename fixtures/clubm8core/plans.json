@@ -19,7 +19,6 @@
     "fields": {
       "name": "Ferien",
       "occurence": [
-        1,
         3
       ]
     }
